@@ -39,3 +39,19 @@ h1{
 .userflash{
     background-color: black;
 }
+
+#st_btn{
+    height: 4rem;
+    width: 8rem;
+    border-radius: 25px;
+    border: 0.5px solid black;
+    background-color: #00c9ff;
+    
+}
+
+#st_btn:hover{
+    height: 4.5rem;
+    width: 9rem;
+   background-color: azure; 
+}
+
