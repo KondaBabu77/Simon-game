@@ -7,7 +7,8 @@ let h2 = document.querySelector('h2');
 let btns = ['red','green','yellow','purple'];
 let highest = 0;
 
-document.addEventListener('keypress',function(){
+let start_btn = document.querySelector('button');
+start_btn.addEventListener('click',function(){
     if(started == false){
         started = true;
         console.log("Game Started");
